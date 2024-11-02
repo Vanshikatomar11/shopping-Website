@@ -1,0 +1,279 @@
+body{
+
+    font-family: 'GFS Didot' ;
+    padding: 0;
+    margin : 0;
+    
+    }
+    nav{
+        background-color: #111;
+        color: white;
+        padding: 20px 50px;
+    
+    }
+    .navTop-Container{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        
+    }
+    
+    .seach{
+        position : absolute;
+        top: 10%;
+        left: 20.5%;
+        outline-style:groove white;
+        background-color: white;
+        padding:2px 4px;
+        width: 260px;
+        border-radius: 0px;  
+    
+    }
+    
+    
+    .searchInput{
+        border: none;
+        background-color: transparent;
+        width: 260px;
+    }
+    
+    .searchInput::placeholder{
+        color: grey;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    
+    
+    .slide{
+        display:contents;
+        left: 0%;
+        top: 0 %;
+    }
+    
+    
+    .prev{
+        left: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    
+    .next{
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+    
+    
+    .prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+    }
+    
+    
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        user-select: none;
+    }
+    
+    
+    .logButton{
+      border : none;
+      position: absolute;
+      top : 10%;
+      left: 85%;
+      color: white;
+      cursor: pointer;
+      background-color: transparent;
+    }
+    
+    .helpButton{
+        border : none;
+        position: absolute;
+        top : 10%;
+        left: 90%;
+        color: white;
+        cursor: pointer;
+        background-color: transparent;
+      }
+    
+    .cartButton{
+        border : none;
+        position: absolute;
+        top : 10%;
+        left: 94%;
+        color: white;
+        background-color: transparent;
+        cursor: pointer;
+      }
+    
+    
+    .logoline{
+        position: absolute;
+        top: 70%;
+        left: 46%;
+        width : 1000px;
+        height: 2000px;
+    }
+    
+    
+    .shopButton{
+        position:absolute;
+        left: 0%;
+        bottom: -25px;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .navBottom{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    
+    .topButton{
+        position:absolute;
+        left: 20%;
+        top: 15%;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .bottomButton{
+        position:absolute;
+        left: 25%;
+        top: 15%;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .heelsButton{
+        position:absolute;
+        left: 31%;
+        top: 15%;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .jeweButton{
+        position:absolute;
+        left: 36%;
+        top: 15%;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .bagButton{
+        position:absolute;
+        left: 44%;
+        top: 15%;
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+        border: none;
+    }
+    
+    
+    .slider{
+      background: lightgoldenrodyellow;
+    }
+    
+    .sliderWrapper{
+        display: flex;
+        align-items: center;
+    }
+    
+    .sliderItem{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    
+    .mainline{
+        color: grey;
+    }
+    
+    
+    .sliderTitle{
+        position: absolute;
+        bottom: 0; 
+        left: 10%;
+        font-size: 20px;
+        font-weight: 80;
+        color: black;
+    }
+    
+    .sliderPrice{
+        position: absolute;
+        top: -10px; 
+        left: 10%;
+        font-size: 15px;
+        font-weight: 80;
+    }
+    
+    
+    .buyButton{
+        position: absolute;
+        top: 6%; 
+        left: 8%;
+        font-size: 12px;
+        border: none;
+        background-color: transparent;
+    
+    }
+    
+    
+    .topLine{
+       position: relative;
+       top: 10px;
+    }
+    
+    
+    
+    .outer-table {
+        border: 0px solid #ccc;
+        margin-bottom: 100px;  Adjust spacing between tables 
+    
+    
+    .products-table {
+        width: 20%;
+        border-collapse: collapse;
+     
+    }
+    
+    .products-table th, .products-table td {
+        position: relative;
+        border: 1px solid black;
+        padding: 1px;
+        text-align: left;
+       
+    }
+    
+    .products-table th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+      
+    }
